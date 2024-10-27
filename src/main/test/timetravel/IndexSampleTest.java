@@ -1,3 +1,5 @@
+package timetravel;
+
 import org.example.timetravel.domain.Document;
 import org.example.timetravel.domain.Index;
 import org.example.timetravel.domain.Query;
