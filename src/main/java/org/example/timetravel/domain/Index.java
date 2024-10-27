@@ -50,7 +50,6 @@ public class Index implements Serializable {
     public List<Document> search(Query query) {
         Set<Long> resultIds = new HashSet<>(documents.stream().map(Document::getId).collect(Collectors.toSet()));
 
-        // Filter by text
         if (query.getText() != null) {
             String[] queryWords = query.getText().toLowerCase().split("\\W+");
             Set<Long> textResultIds = Arrays.stream(queryWords)
