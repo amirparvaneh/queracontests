@@ -1,6 +1,6 @@
 package org.example.nginxparser;
 
-import exceptions.PropertyNotFoundException;
+import org.example.nginxparser.exceptions.*;
 
 import java.util.*;
 

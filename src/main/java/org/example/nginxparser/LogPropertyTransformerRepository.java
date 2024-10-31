@@ -1,6 +1,6 @@
 package org.example.nginxparser;
 
-import exceptions.TransformerNotFoundException;
+import org.example.nginxparser.exceptions.*;
 
 import java.util.*;
 import java.util.function.Function;
