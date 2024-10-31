@@ -1,3 +1,8 @@
+package nginxparser;
+
+import org.example.nginxparser.Log;
+import org.example.nginxparser.LogList;
+import org.example.nginxparser.LogParser;
 import org.junit.*;
 
 import java.io.*;

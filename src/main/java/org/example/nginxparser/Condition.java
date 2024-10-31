@@ -1,3 +1,5 @@
+package org.example.nginxparser;
+
 public class Condition {
     public static Condition equal(String propertyName, String value) {
         // TODO: Implement

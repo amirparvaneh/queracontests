@@ -1,3 +1,5 @@
+package org.example.nginxparser;
+
 import java.util.*;
 
 public class LogList {

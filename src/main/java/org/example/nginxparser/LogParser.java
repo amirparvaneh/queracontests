@@ -1,9 +1,11 @@
+package org.example.nginxparser;
+
 import java.io.*;
 
 public class LogParser {
+
     public LogParser(String template) {
         // TODO: Implement
-        return null;
     }
 
     public Log parseLog(String line) {
